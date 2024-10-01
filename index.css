@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  .container-fluied {
+    background-image: url(./images/curly-line.png);
+  }
+  
+  .btn-contact {
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(76, 64, 247);
+    border: none;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  ul {
+    margin: auto;
+  }
+
+  .logo-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
