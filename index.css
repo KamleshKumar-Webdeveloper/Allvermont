@@ -1,26 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
 * {
-    padding: 0px;
-    margin: 0px;
-  }
-  .container-fluied {
-    background-image: url(./images/curly-line.png);
-  }
-  
-  .btn-contact {
-    width: 150px;
-    padding: 10px;
-    background-color: rgb(76, 64, 247);
-    border: none;
-    border-radius: 10px;
-    color: white;
-  }
-  
-  ul {
-    margin: auto;
+  padding: 0px;
+  margin: 0px;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "Baloo Bhaijaan 2", sans-serif !important;
+}
+.navbar {
+  background-color: white;
+  margin: 35px 0 0px 0 !important;
+  box-shadow: 0px 0px 5px #00000029;
+  padding: 5px !important;
+  border-radius: 20px;
+  position: relative;
+}
+
+.get-start-btn {
+  background-color: #005f29 !important;
+  border-radius: 20px !important;
+  color: white !important;
+  height: 48px;
+  width: 135px;
+  outline: none;
+  border: none;
+}
+
+.navlink_header {
+  color: #1f1f1f !important;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.heaTopSecSpan {
+  color: #005f29;
+}
+
+.top-sec-hea {
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.top-sec {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lrnmorebtn {
+  width: 132px;
+  height: 48px;
+  background-color: #005f29;
+  border: 1px solid #005f29;
+  color: #fff;
+  border-radius: 15px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 400;
+}
+
+.desc-tp {
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-weight: 400;
+  color: #1c2d34;
+  font-size: 25px;
+  width: 70%;
+  /* margin: auto; */
+}
+
+.btnRow {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bgImage {
+  width: 100%;
+}
+
+.cardHead {
+  text-transform: capitalize;
+  color: #1c2d34;
+  font-size: 40px;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  line-height: 40px;
+  font-weight: 600;
+}
+.cardImage {
+  width: 100%;
+}
+
+.downloadsec{
+    width: 100%;
   }
 
-  .logo-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #supting_txt{
+    color: #475467;
+    font-size: 16px;
+    margin-top: 20px;
   }
+
+  .list-inline-item{
+    color: #1F1F1F;
+    font-weight: 500;
+  }
+
+  .navlink_header{
+    color: #1F1F1F !important;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+  #_get_app{
+    color: #005F29;
+    font-weight: 500;
+    font-size: 19px;
+      }
+
+
+      
+.footer {
+    background-color: #f8f9fa;
+    border: 1.2px solid  rgb(181, 179, 179);
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+
+  }
+  
+  d h4 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  div p {
+    color: #6c757d;
+  }
+  
+  div .list-inline-item a {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  
+  div .list-inline-item a:hover {
+    color: #000;
+  }
+  
+  div .list-inline i {
+    font-size: 24px;
+    color: #6c757d;
+  }
+  
+  div .list-inline i:hover {
+    color: #000;
+  }
+
+  ._reserved_row{
+    border: 1.2px solid  rgb(181, 179, 179);
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 20px;
+  }
+
+  
+.navbar-nav{
+    display: flex !important;
+    flex: 1;
+    justify-content: center;
+  }
+/* === */
+
+@media only screen and (max-width: 700px) {
+  .top-sec-hea {
+    font-size: 35px;
+  }
+  .desc-tp {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 160px;
+  }
+  .appstore {
+    width: 120px;
+  }
+}

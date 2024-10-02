@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>center test</title>
+    <title>Allovermont</title>
     <link rel="stylesheet" href="./index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -17,16 +17,184 @@
     />
   </head>
   <body>
-    <div class="container-fluied">
-
-
-
+    <!---------------- navbar ---------------->
+    <div class="row justify-content-center">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary col-11">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt="logo" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="./images/menu.svg" alt="manubtn" />
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center aliteam"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link navlink_header" href="#">HOME</a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link navlink_header" href="#aboutus">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navlink_header" href="#features">FEATURES</a>
+              </li>
+              <li class="nav-item"></li>
+            </ul>
+            <button class="get-start-btn">Get Started</button>
+          </div>
+        </div>
+      </nav>
     </div>
+    <!---------------- section one ---------------->
+    <div class="container">
+      <div class="top-sec">
+        <h1 class="top-sec-hea" id="aboutus">
+          Welcome to Vermont’s Top<br />
+          <span class="heaTopSecSpan">Agri-Tourism App.</span>
+        </h1>
+        <p class="desc-tp">
+          We are dedicated to promoting agriculture in the Green Mountain State,
+          supporting local farmers, and helping visitors discover the rich
+          agricultural heritage of Vermont.
+        </p>
+
+        <button class="lrnmorebtn">Learn More</button>
+        <div class="btnRow">
+          <a href="#">
+            <img src="./images/appStore.svg" alt="appstore" class="appstore" />
+          </a>
+          <a href="#">
+            <img src="./images/playStore.svg" alt="appstore" class="appstore" />
+          </a>
+        </div>
+
+        <div class="btnRow">
+          <a href="#">
+            <img src="./images/qr1.svg" alt="app store" />
+          </a>
+          <a href="#">
+            <img src="./images/qr1.svg" alt="app store" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!---------------- section two ---------------->
+
+    <div id="features">
+      <img src="./images/bg.png" alt="background" class="bgImage" />
+    </div>
+    <!---------------- section three ---------------->
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 20px">
+              <p class="cardHead">
+                Discover the rich agricultural heritage of Vermont.
+              </p>
+              <img
+                src="./images/cardImage1.svg"
+                alt="Card Image"
+                class="cardImage"
+                style="margin-top: 20px"
+              />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 20px">
+              <img
+                src="./images/cardImage2.svg"
+                alt="Card Image"
+                class="cardImage"
+              />
+              <p class="cardHead" style="margin-top: 20px">
+                Promoting agriculture in the Green Mountain State
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <!---------------- section four ---------------->
+
+    <div class="container-fluid ">
+        <div class="row justify-content-center">
+            <div class="col-11 mb-5" id="featrues">
+                <img src="./images/downloadsec.svg" class="downloadsec" />
+            </div>
+        </div>
+    </div>
+
+    <!---------------- footer ---------------->
+    <div class="footer mt-auto py-3 bg-light">
+          <br />
+          <div class="container-fluid">
+              <div class="row justify-content-center">
+                  <div class="col-11">
+  
+                      <div class="row align-items-center justify-content-between">
+                          <div class="col-md-3 mb-3">
+                              <img src="./images/logo.png" alt="ALLVERMONT" class="logo">
+                              <p id="supting_txt">Supporting local farmers and discovering the Vermont local heritage
+                              </p>
+  
+                              <div class="col mb-3">
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item"><a href="#">HOME</a></li>
+                                      <li class="list-inline-item"><a href="#">ABOUT US</a></li>
+                                      <li class="list-inline-item"><a href="#">FEATURES</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+  
+                          <div class="col-md-3 mb-3">
+                              <h6 id="_get_app">Get the app</h6>
+                              <p>
+  
+                                  <a href="#"><img src="./images/appStore.svg" alt="App Store"></a>
+                              </p>
+                              <p>
+  
+                                  <a href="#"><img src="./images/playStore.svg" alt="Google Play"></a>
+                              </p>
+                          </div>
+                      </div>
+  
+                      <!-- Copyright and Social Links -->
+                      <div class="row mt-4">
+                          <div class="col-md-12 _reserved_row row">
+                              <p class="col-lg-9 col-sm-12">© 2024 All Vermont. All rights reserved.</p>
+                              <ul class="list-inline col">
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i>      </a></li>
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-github"></i></a></li>
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-peace"></i></a></li>
+                                  <li class="list-inline-item"><a href="#"><i class="bi bi-dribbble"></i></a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>  
+              </div>
+          </div>
+  
+      </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
+      crossorigin="anonymous"></script>
   </body>
 </html>
